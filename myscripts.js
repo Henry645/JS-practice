@@ -1,4 +1,15 @@
-
+let sample = "madness";
+let cut = sample.slice(0,3);
+console.log(cut);
+let cut_substring = sample.substring(4,7);
+console.log(cut_substring);
+let cut_substr = sample.substr(1,3);
+console.log(cut_substr);
+tall_sample = sample.toUpperCase();
+console.log(tall_sample);
+let part = "This is"
+let sentence = part.concat(" ", sample, ".")
+console.log(sentence);
 // const name = "My name is";
 // const user = "Henry";        
 // alert(name + ": " + user + ".");
