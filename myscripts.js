@@ -1,30 +1,38 @@
-let sample = "madness";
-let cut = sample.slice(0,3);
-console.log(cut);
-let cut_substring = sample.substring(4,7);
-console.log(cut_substring);
-let cut_substr = sample.substr(1,3);
-console.log(cut_substr);
-tall_sample = sample.toUpperCase();
-console.log(tall_sample);
-let part = "This is"
-let sentence = part.concat(" ", sample, ".")
-console.log(sentence);
-let space = "   space   ";
-let space_trimmed = space.trim();
-console.log(space);
-console.log(space_trimmed);
-let x = "x";
-let start_padded_x = x.padStart(4, "I")
-let double_padded_x = start_padded_x.padEnd(7, "X")
-console.log(double_padded_x);
-let repeat_x = x.repeat(2);
-console.log(repeat_x);
-let sparta = sentence.replace("madness", "Sparta")
-console.log(sparta);
-let sparta_array = sparta.split(" ");
-console.log(sparta_array);
-console.log(typeof(sparta_array));
+console.log("B" > "A");
+console.log("01" == 1);
+console.log(false == 0);
+console.log("" == false); //empty string equals false with equality check
+console.log(0 == false); //true, everything gets converted to number type
+console.log(0 === false); //false, "strict equality" does not convert types
+console.log("1" !== 1); //true, strict INequality
+// alert(5!=5);
+// let sample = "madness";
+// let cut = sample.slice(0,3);
+// console.log(cut);
+// let cut_substring = sample.substring(4,7);
+// console.log(cut_substring);
+// let cut_substr = sample.substr(1,3);
+// console.log(cut_substr);
+// tall_sample = sample.toUpperCase();
+// console.log(tall_sample);
+// let part = "This is"
+// let sentence = part.concat(" ", sample, ".")
+// console.log(sentence);
+// let space = "   space   ";
+// let space_trimmed = space.trim();
+// console.log(space);
+// console.log(space_trimmed);
+// let x = "x";
+// let start_padded_x = x.padStart(4, "I")
+// let double_padded_x = start_padded_x.padEnd(7, "X")
+// console.log(double_padded_x);
+// let repeat_x = x.repeat(2);
+// console.log(repeat_x);
+// let sparta = sentence.replace("madness", "Sparta")
+// console.log(sparta);
+// let sparta_array = sparta.split(" ");
+// console.log(sparta_array);
+// console.log(typeof(sparta_array));
 // const name = "My name is";
 // const user = "Henry";        
 // alert(name + ": " + user + ".");
